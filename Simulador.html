@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dremel 3000</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <header>
+        <h1> Dremel 3000</h1>
+    </header>
+    <div class="contenido">
+        <div class="dremel">
+            <div class="objDesc">
+                <div class="dremel">
+                    <div id="rotador1" class="esmeril"></div>
+                    <div id="rotador2" class="ejesmeril"></div>
+                    <div id="rotador3" class="sujetador"></div>
+                    <div id="rotador4" class="ejecentral"></div>
+                    <div id="rotador5" class="bobina"></div>
+                    <div id="rotador6" class="masas"></div>
+                </div>
+                <div class="nombres">
+                    <h2>Esmeril</h2>
+                    <h2>Eje Esmeril</h2>
+                    <h2>Sujetador</h2>
+                    <h2>Eje Central</h2>
+                    <div class="grandes">
+                        <h2>Bobina</h2>
+                        <h2>Masas</h2>
+                    </div>
+                </div>    
+            </div>
+            <div class="velocidades">
+                <input type="button" value="Off" onclick="off()"></input>
+                <input type="button" value="V1" onclick="v1()"></input>
+                <input type="button" value="V2" onclick="v2()"></input>
+                <input type="button" value="V3" onclick="v3()"></input>
+                <input type="button" value="V4" onclick="v4()"></input>
+                <input type="button" value="V5" onclick="v5()"></input>
+            </div>
+            <h3 id></h3>
+        </div>
+        <div class="datos">
+            <div>
+                <h1>Velocidad Angular</h1>
+                <h3 id="vangular"></h3>
+            </div>
+            <div>
+                <h1>Momento de Inercia</h1>
+                <h3 id="inercia"></h3>
+            </div>
+            <div>
+                <h1>Energía cinética de rotación</h1>
+                <h3 id="cinetica"></h3>
+            </div>
+            <div>
+                <h1>Momento Angular</h1>
+                <h3 id="momento"></h3>
+            </div>
+        </div>    
+    </div>
+    <footer>
+        <h1>Grupo 4. AC190976 - AG210653 - CG181756</h1>
+    </footer>
+</body>
+</html>
+

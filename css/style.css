@@ -1,0 +1,159 @@
+html{
+    min-height: 100%;
+    position: relative;
+}
+body {
+    display: grid;
+    place-content: center;
+    margin: 0;
+    min-height: 100%;
+    min-width: 100%;
+    background-color: gainsboro;
+    font-family: sans-serif;
+    margin-bottom: 40PX;
+}
+h1 {
+    color: black;
+}
+header {
+    font-size: 22px;
+}
+.contenido {
+    display: flex;
+    min-width: 100%;
+    place-content: center;
+}
+header {
+    display: flex;
+    min-width: 100%;
+    justify-content: center;
+}
+
+@keyframes rotores {
+    to{transform:rotate(360deg);}
+}
+
+.dremel {
+    display: grid;
+    grid-gap: 20px;
+    justify-items: center;
+}
+
+.esmeril {
+    width: 80px;
+    height: 80px; 
+    margin: 5px;
+    border-radius: 50%;
+    background-image: url('/dev/media/stone.jpg');
+}
+.ejesmeril {
+    width: 30px;
+    height: 30px; 
+    margin: 5px;
+    background: silver;
+    border-radius: 50%;
+    background-image: url('/dev/media/eje.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sujetador {
+    width: 60px;
+    height: 60px; 
+    margin: 5px;
+    border-radius: 35%;
+    background-image: url('/dev/media/sujetador.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.ejecentral {
+    width: 50px;
+    height: 50px; 
+    margin: 5px;
+    background: silver;
+    border-radius: 50%;
+    background-image: url('/dev/media/eje.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.bobina {
+    width: 120px;
+    height: 120px; 
+    margin: 5px;
+    background-image: url('/dev/media/bobina.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.masas {
+    width: 120px;
+    height: 120px; 
+    margin: 5px;
+    background-image: url('/dev/media/masas.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.nombres {
+    display: grid;
+    justify-items: center;
+    grid-gap: 20px;
+    grid-auto-rows: 60px;
+}
+.grandes {
+    display: grid;
+    margin-top: 25px;
+    justify-items: center;
+    grid-gap: 80px;
+    grid-auto-rows: 80px;
+}
+
+.objDesc {
+    display: flex;
+    background-color: gray;
+    border-radius: 15px;
+    border-style: dashed;
+    border-color: blue;
+}
+
+.datos {
+    display: grid;
+    min-width: 762px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 100px;
+    grid-auto-rows: 250px;
+    grid-auto-columns: 250px;
+    justify-items: center;
+    text-align: center;
+    background-color: gray;
+    border-radius: 15px;
+    border-style: dashed;
+    border-color: blue;
+}
+
+h2 {
+    margin: 40px;
+    color: lightblue;
+}
+h3 {
+    color: lightblue;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    bottom: 0;
+}
+
+.velocidades {
+    display: flex;
+    margin-top: 30px;
+    min-width: 40%;
+    background-color: gray;
+    border-radius: 10px;
+    border-style: dashed;
+    border-color: blue;
+}
+
