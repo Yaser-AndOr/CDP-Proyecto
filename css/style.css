@@ -44,7 +44,7 @@ header {
     height: 80px; 
     margin: 5px;
     border-radius: 50%;
-    background-image: url('/dev/media/stone.jpg');
+    background-image: url('../media/stone.jpg');
 }
 .ejesmeril {
     width: 30px;
@@ -52,7 +52,7 @@ header {
     margin: 5px;
     background: silver;
     border-radius: 50%;
-    background-image: url('/dev/media/eje.jpg');
+    background-image: url('../media/eje.jpg');
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -61,7 +61,7 @@ header {
     height: 60px; 
     margin: 5px;
     border-radius: 35%;
-    background-image: url('/dev/media/sujetador.png');
+    background-image: url('../media/sujetador.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -71,7 +71,7 @@ header {
     margin: 5px;
     background: silver;
     border-radius: 50%;
-    background-image: url('/dev/media/eje.jpg');
+    background-image: url('../media/eje.jpg');
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -79,7 +79,7 @@ header {
     width: 120px;
     height: 120px; 
     margin: 5px;
-    background-image: url('/dev/media/bobina.png');
+    background-image: url('../media/bobina.png');
     background-size: contain;
     background-repeat: no-repeat;
 
@@ -88,7 +88,7 @@ header {
     width: 120px;
     height: 120px; 
     margin: 5px;
-    background-image: url('/dev/media/masas.png');
+    background-image: url('../media/masas.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
